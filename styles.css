@@ -81,3 +81,13 @@ body{
     background-color:lightgreen ;
 }
 
+.image-box{
+    border-radius: 20%;
+    box-shadow: 10px 10px 5px #2b98aa;
+}
+footer{
+    color: #fff;
+    font-size: 1rem;
+    margin: 0;
+    padding: 1rem;
+}
