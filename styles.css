@@ -1,0 +1,83 @@
+html,
+body{
+    height: 100%;
+    font-size: 1.0rem;
+}
+
+
+.image-logo {
+    max-height: 50px;
+    text-align: center;
+    display: inline;
+}
+.navbar-custom {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content:space-around;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+.gradient{
+
+    background: rgb(43,152,170);
+    background: linear-gradient(90deg, rgba(43,152,170,1) 0%, rgba(12,223,228,0.6923363095238095) 100%, rgba(9,83,121,1) 100%);
+}
+
+.page-header{
+    margin-top: 5rem;
+    font: size 1.25rem;
+    color:black;
+    font-family: 'Lato', sans-serif;
+}
+
+.image-splash{
+    
+    max-width: 100%;
+    border-radius: 20%;
+    box-shadow: 10px 10px 5px #2b98aa;
+    
+}
+.image-bg{
+    background-image: url(/assets/annie-spratt-QckxruozjRg-unsplash.svg);
+    object-fit: contain;
+}
+.fa-linkedin{
+    color: #0b67c3
+}
+
+.section2{
+    color:#fff;
+}
+
+.section2 ul{
+    padding-left: 2rem;
+    list-style:none;
+    
+}
+
+.section2 ul li{
+    padding-left: 2rem;
+    line-height: 1.5rem;
+    background-image: url(/assets/check-circle.svg);
+    background-repeat: no-repeat;
+}
+.skill-icon{
+    color:#fff;
+    height:5rem;
+    width: 5rem;
+    font-size:1.5rem;
+    border-radius: 100%;
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.section3{
+    background-color:lightgreen ;
+}
+
